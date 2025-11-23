@@ -103,7 +103,7 @@ project_root/
 ├── data/                      # Your .txt documents
 ├── cache/                     # Auto‑generated cache + FAISS index
 ├── main.py                    # CLI entry point
-├── streamlit_app.py           # UI application
+├── streamlit_ui.py           # UI application
 ├── requirements.txt
 └── README.md
 ```
@@ -137,7 +137,7 @@ Streamlit was used for the UI because it allows rapid development and produces c
 You can launch the full UI with:
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run streamlit_ui.py
 ```
 
 This opens a local search dashboard where you can run semantic queries, inspect search explanations, and view analytics.
